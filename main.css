@@ -1,0 +1,305 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+
+body{
+    background-color: white;
+}
+
+    /* NAVBAR PORTION */
+
+li,.download-btn{
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: middle;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+
+li .logo{
+    margin: 20px 24px 17px 50px;
+    width: 100px;
+}
+
+#navbar{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.download-btn{
+    position: relative;
+    left: 20%;
+    color: #0060df;
+    border: 2px solid #0060df;
+    border-radius: 4px;
+    padding: 3px 25px;
+    margin-top: 0;
+    text-decoration: none;
+    background-color: white;
+}
+
+
+.download-btn:hover{
+    color:#ffff;
+    background-color: #0060df;
+}
+
+/* HERO SECTION */
+
+
+#Tech-talk{
+    text-align: center;
+    margin-top: 105px;
+    margin-bottom: 280px;
+}
+
+
+.tech{
+    /* display: inline-block; */
+    float: left;
+    width: 50%;
+    padding: 40px;
+}
+
+.conversation{
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    padding-right: 80px;
+}
+.talk{
+    font-family: 'Inter', sans-serif;
+    font-weight:700;
+    font-size: 60px;
+    color: black;
+    line-height: 60px;
+    margin: 20px 50px 20px 0;
+    /* padding-right: 80px; */
+    text-align: start;
+    /* letter-spacing: 5px; */
+}
+
+
+.talk-img{
+    width: 90%;
+}
+
+.ff-image{
+    width:40%;
+    float: inline-end;
+    margin-bottom: 55px;
+}
+
+.inter{
+    font-size: 20px;
+    text-align: middle;
+    /* padding-right: 90px; */
+    line-height: 30px;
+    color: #000000;
+    /* margin-bottom: 40px; */
+}
+
+.con-btn{
+    font-family: 'Inter', sans-serif;
+    font-weight:800;
+    font-size:20px
+}
+
+#power{
+    background-color: #f9f9fb;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    height: 400px;    
+}
+
+.tree{
+    float: left;
+    bottom: 110px;
+    padding-bottom: 70px;
+    overflow-y: visible;
+    position: relative;
+}
+
+
+.mindset{
+    margin-top: 90px;
+    padding-right: 90px;
+}
+
+.zilla{
+    font-family: 'Zilla Slab', serif;
+    font-size: 700;
+    color: black;
+    margin-bottom: 40px;
+    font-size: 60px;
+    line-height: 60px;
+}
+
+.link,a:hover{
+    text-decoration: none;
+    color: #0060df;
+}
+
+.feature-table{
+    margin-top: 350px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+
+
+/* features section */
+
+#products{
+    margin-bottom: 150px;
+    position: relative;
+}
+
+/* #product2{
+    margin-bottom: 100px;
+    position: relative;    
+} */
+
+.vpn{
+    /* text-align: left; */
+    align-items: center;
+    margin-bottom: 10%;
+    padding-bottom: 20px;
+}
+
+.protect{
+    display: inline-block;
+    width: 50%;
+    margin-left: 0;
+}
+
+.imgg{
+    text-align: left;
+    display: flex;
+    inline-size: 100%;
+}
+
+.text{
+    padding-right: 80px;
+    display: inline-block;
+    width: 50%;
+    padding-left: 30px;
+    margin-bottom: 4px; 
+    text-align: middle;
+    position: absolute;
+    top: 20px;
+}
+
+.text2{
+    padding-right: 80px;
+    display: inline-block;
+    width: 50%;
+    padding-left: 30px;
+    margin-bottom: 4px; 
+    text-align: middle;
+    position: absolute;
+    top: 20px;
+}
+
+.logo{
+    width:25%;
+    margin: 9px 0 25px;
+}
+
+.pro{
+    font-size: 70px;
+    line-height: 70px;
+    padding-right: 60px;
+}
+
+.game{
+    line-height: 33.75px;
+    padding-right: 40px;
+    font-size: 22.5px;
+    letter-spacing: normal;
+    text-align: left;
+    font-family:'Inter', sans-serif;
+    font-weight: 400;
+    color: #000000;
+}
+
+.get-btn{
+    padding: 5px 30px 5px;
+    background-color: black;
+    color: white;
+    border:2px solid black;
+    margin: 15px 0 ;
+    border-radius: 4px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.get-btn:hover{
+    background-color: white;
+    color: #000000;
+}
+
+.btn-blues{
+    padding: 5px 30px 5px;
+    /* background-color: black; */
+    color: white;
+    border:0px solid blue;
+    margin: 15px 0 ;
+    border-radius: 4px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.btn-blues:hover{
+    background-color: blue;
+    color: white;
+}
+
+
+/* support section */
+
+#support{
+    background-color: #f9f9fb;
+    height: 600px;
+    display: flex;
+    margin-bottom: 300px;
+}
+
+.security{
+    margin: 150px 80px;
+    text-align: center;
+
+}
+
+.seventeen{
+    text-align: right;
+    inline-size: 100%;
+    /* display: flex;
+    top: 2000px; */
+}
+
+/* web section */
+
+#web{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.march{
+    display: inline-block;
+    margin: 0 200px;
+}
+
+.open{
+    display: inline-block;
+    width: 50%;
+}
