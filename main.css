@@ -1,3 +1,4 @@
+
 *{
     margin: 0px;
     padding: 0px;
@@ -8,39 +9,95 @@ body{
     background-color: white;
 }
 
-    /* NAVBAR PORTION */
 
-li,.download-btn{
+    /* NAVBAR PORTION */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+    padding: 0;
+}
+
+.brand-title{
+    /* font-size: 1.5rem; */
+    margin: .5rem;
+    /* inline-size: 100%; */
+    /* width: 40rem; */
+}
+
+/* .logo{
+    width: 1%;
+} */
+
+.toggle-button{
+    position: absolute;
+    top: 0.75rem;
+    right:1rem;
+    display:none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 32px;
+    height: 21px;
+}
+
+.navbar-links ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li{
+    list-style: none;
+}
+
+.navbar-links li a{
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.navbar-links li:hover{
+    text-decoration: underline gray 3px;
+}
+
+
+
+   
+
+/* li,.download-btn{
     display: inline-block;
     font-size: 20px;
     vertical-align: middle;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
-}
+} */
 
-li a{
+/* li a{
     text-decoration: none;
     color: black;
     margin-right: 20px;
 }
 
 li .logo{
-    margin: 20px 24px 17px 50px;
+    // margin: 20px 24px 17px 50px; //
     width: 100px;
-}
+} */
 
-#navbar{
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
-}
+
 
 .download-btn{
-    position: relative;
-    left: 20%;
-    color: #0060df;
+    /* position: relative;
+    left: 20%; */
+    color: black;
     border: 2px solid #0060df;
     border-radius: 4px;
-    padding: 3px 25px;
-    margin-top: 0;
+    /* margin-top: 0; */
     text-decoration: none;
     background-color: white;
 }
@@ -74,6 +131,7 @@ li .logo{
     text-align: left;
     padding-right: 80px;
 }
+
 .talk{
     font-family: 'Inter', sans-serif;
     font-weight:700;
@@ -117,7 +175,8 @@ li .logo{
     text-align: center;
     display: inline-block;
     width: 100%;
-    height: 400px;    
+    height: 400px;  
+    margin-top: 180px;  
 }
 
 .tree{
@@ -137,9 +196,9 @@ li .logo{
 .zilla{
     font-family: 'Zilla Slab', serif;
     font-size: 700;
+    font-weight: bold;
     color: black;
     margin-bottom: 40px;
-    font-size: 60px;
     line-height: 60px;
 }
 
@@ -292,6 +351,7 @@ li .logo{
     display: flex;
     align-items: center;
     width: 100%;
+    margin-bottom: 10%;
 }
 
 .march{
@@ -299,7 +359,33 @@ li .logo{
     margin: 0 200px;
 }
 
-.open{
+#open{
     display: inline-block;
     width: 50%;
+    padding-right: 290px;
+}
+
+.address{
+    width: 100%;
+    color: #000000;
+    font-weight: bold;
+}
+
+.signing{
+    display: block;
+    width: 100%;
+    margin-top: 3%;
+}
+
+.example{
+    width: 100%;
+}
+
+.content{
+    margin: 0,auto;
+}
+
+.footList{
+    display: block;
+    text-align: left;
 }

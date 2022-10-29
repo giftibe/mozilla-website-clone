@@ -1,0 +1,228 @@
+@media all and (max-width: 900px){
+    #Tech-talk{
+        text-align: center;
+        padding: 0;
+    }
+    
+    .tech{
+        display: block;
+        width: 100%;
+    }
+
+    .conversation{
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding-left:30px ;
+    }
+
+    .talk{
+        font-family: 'Inter', sans-serif;
+        font-weight:700;
+        font-size: 40px;
+        color: black;
+        margin: auto;
+        line-height: 60px;
+        /* margin: 0px 50px 20px 50px; */
+        text-align: center;
+    }
+
+    .talk-img{
+        inline-size: 100%;
+        margin: auto;
+    }
+
+    .inter{
+        font-size: 20px;
+        vertical-align: middle;
+        /* text-align: middle; */
+        line-height: 30px;
+        color: #000000;
+        margin: auto;
+    }
+
+    .con-btn{
+        font-family: 'Inter', sans-serif;
+        font-weight:800;
+        font-size:20px;
+        margin-top: 10px;
+    }
+    
+    #power{
+        background-color: #f9f9fb;
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        height: 400px;    
+    }
+
+    .tree{
+        float: left;
+        bottom: 0px;
+        padding-bottom: 70px;
+        overflow-y: visible;
+        position: relative;
+        inline-size: 100%;
+    }
+
+    .med{
+        font-size: 50px;
+        font-weight: bold;
+        margin-bottom: 5px;
+        /* margin-left: 10px; */
+    }
+    
+    .mindset{
+        margin-top: 0px;
+        padding-left: 50px;
+        text-align: left;
+    }
+
+    .link{
+        margin-top: 10px;
+    }
+    
+    .feature-table{
+        margin-top: 90px;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+    /* product section */
+
+    .imgg{
+        text-align: center;
+        display: block;
+        /* width: 10%; */
+        inline-size: 100%;
+    }
+
+    .protect{
+        display: block;
+        width: 100%;
+        margin-left: 0;
+        align-items: center;
+    }
+
+    .pro{
+        font-size: 70px;
+        line-height: 70px;
+        /* padding-right: 60px; */
+    }
+
+    .cent{
+        margin-left: 50px;
+    }
+
+    .text{
+        padding-right: 20px;
+        width: 100%;
+        margin-bottom: 4px; 
+        text-align: center;
+    }
+
+    .logo{
+        width:20%;
+        align-items: center;
+        margin-top:50px ;
+    }
+
+    .game{
+        text-align: center;
+    }
+
+    .text{
+        display: block;
+        width: 100%;
+        padding-left: 30px;
+        margin-bottom: 4px; 
+        text-align: center;
+        position: static;
+        /* top: 20px; */
+    }
+
+    /* section3 */
+
+    .text2{
+        padding-right: 20px;
+        width: 100%;
+        margin-bottom: 4px; 
+        text-align: center;
+        display: block;
+        position: static;
+    }
+
+    #support{
+        background-color: #f9f9fb;
+        height: 600px;
+        display: table;
+        margin-bottom: 300px;
+    }
+
+    .security{
+        /* margin: 150px 80px; */
+        text-align: left;
+        display: table-footer-group;
+        width: 100%;
+    }
+
+    .seventeen{
+        text-align: center;
+        inline-size: 100%;
+        /* display: flex;
+        top: 2000px; */
+        display: table-row-group;
+    }
+
+    /* section4 */
+
+    #web{
+        display: block;
+        align-items: center;
+        /* width: 100%; */
+        margin-bottom: 10%;
+        justify-content: center;
+    }
+
+    .march{
+        display: block;
+        justify-content: baseline;
+        inline-size: 100%;
+        width: 100%;
+    }
+
+    #open{
+        display: block;
+        width: 100%;  
+        margin: auto;
+    }
+    
+    .toggle-button{
+        display: flex;
+    }
+
+    .navbar-links{
+        display: none;
+        width: 100%;
+    }
+
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-links ul{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar-links li a{
+        padding: .5rem 1rem;
+        border-bottom: .1px solid rgb(243, 225, 225) ;        
+    }
+
+    .navbar-links.active{
+        display: flex ;
+    }
+
+} 
